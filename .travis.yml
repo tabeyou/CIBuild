@@ -1,2 +1,2 @@
 language: objective-c
-script: xcodebuild -project CIBuild.xcodeproj -scheme CIBuild -configuration Debug iphonesimulator ONLY_ACTIVE_ARCH=NO
+script: xcodebuild -project CIBuild.xcodeproj -scheme CIBuild -configuration Debug -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
