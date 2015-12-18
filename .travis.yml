@@ -1,3 +1,2 @@
 language: objective-c
-xcode_project: CIBuild.xcodeproj
-xcode_scheme: CIBuild
+script: xcodebuild -project CIBuild.xcodeproj -schema CIBuild
